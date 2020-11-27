@@ -9,7 +9,7 @@ public class GetNumberOfLines {
         ArrayList<Integer> employees = new ArrayList<>();
         try {
             String myURL = "jdbc:mysql://localhost/bbdd_psp_1";
-            Connection conn = DriverManager.getConnection(myURL,"root","");
+            Connection conn = DriverManager.getConnection(myURL,"DAM2020_PSP","DAM2020_PSP");
             // create a Statement from the connection
             Statement statement = conn.createStatement();
             // insert the data for every record

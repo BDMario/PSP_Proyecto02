@@ -25,7 +25,7 @@ public class DatabaseReaderByThreads extends Thread{
             //Set the end array position for every thread
             int end = (start + numberOfLines - 1);
             String myURL = "jdbc:mysql://localhost/bbdd_psp_1";
-            Connection conn = DriverManager.getConnection(myURL,"root","");
+            Connection conn = DriverManager.getConnection(myURL,"DAM2020_PSP","DAM2020_PSP");
             //Create a Statement from the connection
             Statement statement = conn.createStatement();
             //Insert the data for every record assigned to this thread
