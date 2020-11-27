@@ -14,4 +14,4 @@ Database with:
 + EMAIL: varchar(100)
 + INGRESOS: Integer
 
-To run this project you just have to click on "run", it will show up the total income among all employers 
+To run this project you just have to click on "run", it will show up the total income among all employees 
